@@ -7,11 +7,12 @@ body {
   color: azure;
   width: 250px;
   height: 430px;
-  margin-left: 150px; 
+ /* margin-left: 150px; */
   margin-top: 80px;
   /* margin-bottom: 10px; */
   border-radius: 20px;
   font-family: "Outfit", sans-serif;
+  padding:20px;
 }
 #head {
   display: flex;
