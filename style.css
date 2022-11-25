@@ -1,0 +1,89 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  width: 900px;
+}
+.whole-container {
+  background-color: hsl(216, 50%, 16%);
+  color: azure;
+  width: 250px;
+  height: 430px;
+  /* margin-left: 50px; */
+  margin-top: 80px;
+  /* margin-bottom: 10px; */
+  border-radius: 20px;
+  font-family: "Outfit", sans-serif;
+}
+#head {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  margin-left: 100px;
+}
+.first-container {
+  margin-top: 5px;
+  margin-left: 20px;
+  /* background-color: rgb(119, 186, 36); */
+}
+.first-container img {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.second-container {
+  /* background-color: rgb(60, 25, 63); */
+  margin-left: 5px;
+}
+.second-container h2 {
+  font-size: 18px;
+  margin-left: 13px;
+}
+.second-container p {
+  font-size: 13px;
+  margin-left: 12px;
+  color: hsl(215, 51%, 70%);
+}
+.sub-1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  font-weight: bolder;
+}
+.sub-2 p {
+  color: aqua;
+  font-weight: bold;
+}
+.sub-2 {
+  display: flex;
+
+  /* background-color: rgb(103, 156, 156); */
+  margin-left: 10px;
+}
+.sub-2 svg {
+  margin-top: 12px;
+}
+.sub-2 p {
+  padding: 0 0 0 3px;
+}
+.sub-3 {
+  display: flex;
+  margin-right: 10px;
+  /* background-color: cadetblue; */
+}
+.sub-3 svg {
+  margin-top: 12px;
+}
+.sub-3 p {
+  margin-right: 10px;
+}
+.last-container {
+  /* background-color: rgb(16, 56, 56); */
+  display: flex;
+  column-gap: 8px;
+  border-top: 1px solid hsl(215, 21%, 55%);
+}
+.last-container img {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.p-1 {
+  color: hsl(215, 51%, 70%);
+}
